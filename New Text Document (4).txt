@@ -1,0 +1,9 @@
+dream2geecode/
+│
+├── scanner.py            # Main CLI app entrypoint
+├── ai_client.py          # OpenAI API wrapper, chunking & calls
+├── formatter.py          # Formatting & linting helpers
+├── reporter.py           # Logging & report generator
+├── config.json           # Config file for settings & token limits
+├── requirements.txt      # black, pylint, mypy, openai, aiohttp, tqdm
+└── utils.py              # Helper utils (file scanning, async helpers)
